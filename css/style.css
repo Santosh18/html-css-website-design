@@ -235,6 +235,33 @@ p {
   border-radius: 50%;
 }
 
+/* Contact us form */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 100px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: red;
+  border-color: #333;
+}
 /* Footer */
 #main-footer {
   background: #333;
